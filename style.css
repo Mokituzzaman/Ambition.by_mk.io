@@ -1,0 +1,224 @@
+@font-face {
+	font-family: "GodOfWar";
+	src: url('fonts/GodOfWar.woff') format('woff');
+}
+@font-face {
+  font-family: 'Square721BT-Bold';
+  src: url("Square721BT-Bold.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'godofwar';
+  src: url("fonts/godofwar-webfont.woff2") format("woff2"), url("fonts/godofwar-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+body{
+	margin: 0px;
+	
+	font-weight: bold;
+	
+}
+.header-area .navbar-brand img{
+	width: 140px;
+	height: auto;
+}
+.header-area{
+	
+	background-image: url("img/header1.jpg");
+	min-height: 140px;
+	background-repeat: no-repeat;
+	background-position: 10% 30%;
+
+	border-bottom: 2px orange solid;
+}
+.header-area a{
+	font-size: 15px;
+	font-family: "GodOfWar";
+	color: black;
+	border-bottom: 1px solid #ff6200;
+}
+.header-area a:hover{
+	font-size: 15px;
+	font-family: "GodOfWar";
+	color: #fff;
+	border-bottom: 1px solid #ff6200;
+	transition-delay: .15s;
+}
+.text{
+
+	width: 50%;
+	margin: auto;
+}
+.reg-area .container{
+	
+}
+.reg-area h1{
+	
+	font-weight: bold;
+	display: block;
+	float: left;
+	overflow: hidden;
+}
+.reg-area h3{
+	
+	margin-top: 12px;
+	display: block;
+	
+	padding-bottom: 4px;
+	
+}
+.reg-area h4{
+	font-family: "GodOfWar";
+}
+
+.reg-area input{
+	border:dotted; 
+
+}
+.reg-area h5{
+	margin-top:65px; 
+	font-family: "GodOfWar";
+	color:#ff6200;
+}
+.reg-area img{
+	width: 100px;
+	height: 25px;
+	padding-bottom: 3px;
+}
+.col-md-4 ul{
+	list-style:none;
+}
+.number{
+	float:left;
+	width:35%;
+	margin-right:3px;
+}
+.blank{
+	float:left;
+	width:60%;
+	margin-left:5px;
+}
+.agreed-area{
+	min-height: 400px;
+	background-repeat: no-repeat;
+	background-position:-384px 11px;
+	background-image: url('img/line.png');
+}
+.agreed-area .agreed  p{
+	margin-top: 50px;
+	font-family: lato;
+	font-weight: bold;
+	font-weight: normal;
+	font-size:18px;
+	letter-spacing: .1px;
+	
+}
+.agreed-area  p{
+	margin-top: 50px;
+	font-family: lato;
+	font-weight: bold;
+	font-weight: normal;
+	font-size:18px;
+	
+}
+.agreed a{
+	padding-bottom: 4px;
+	font-weight: normal;
+	color:#000000;
+	border-bottom: 1px solid #000000;
+}
+
+
+.reg-area .agreed-area .row button{
+	background: #ff6200;
+	border: 2px dotted;
+	margin-bottom: 50px;
+	margin-left: 120px;
+	transition-delay: .15s;
+}
+.reg-area .agreed-area .row button:hover{
+	background: #F79F1F;
+	border: 2px solid #ff6200;
+	margin-bottom: 50px;
+	margin-left: 120px;
+}
+.reg-area .agreed-area .row button a{
+	font-family: "GodOfWar";
+	color:#fff;
+	text-decoration: none;
+}
+.reg-area  .member a{
+	text-transform: uppercase;
+	font-style: arial;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	color:#ff6200;
+	border-bottom: 1px solid #ff6200;
+
+}
+.socials {
+  max-width: 300px; }
+  .socials a {
+  	font-size: 18px;
+  	text-decoration: none;
+    color: #fff;
+    font-family: 'godofwar'; }
+    .socials a img {
+      max-width: 50px;
+      margin-right: 15px; }
+  .socials div {
+    color: #fff;
+    font-size: 26px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-family: 'Square721BT-Bold'; }
+
+.footer_right_side img {
+  max-width: 200px; }
+.footer_right_side ul {
+  margin-top: 10px;
+  font-family: 'godofwar'; }
+  .footer_right_side ul li {
+ 	list-style: none;
+    margin-left: 30px; }
+    .footer_right_side ul li a {
+    text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+      line-height: 21px;
+      text-transform: uppercase; }
+	 .footer_right_side ul li a:hover {
+      color: #ff6200;
+      font-size: 18px;
+      line-height: 21px;
+
+      text-transform: uppercase; }
+.reg-area a:hover{
+	font-style: arial;
+	text-decoration: none;
+	color:#f0932b;
+	border-bottom: 2px solid #ff6200 ;
+
+}
+footer {
+  background: url(images/bg.png);
+  padding-bottom: 30px;
+  background-size: cover 100%;
+  background-repeat: no-repeat;
+  padding-top: 300px;
+  margin-top: 50px; }
+  footer .b_coin {
+    padding: 12px 18px;
+    border: 2px solid #ff6201;
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Square721BT-Bold'; }
+    footer .b_coin img {
+      max-width: 35px; }
+  footer .line {
+    height: 9px;
+    background: #ff6201; }
